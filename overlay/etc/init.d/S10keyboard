@@ -1,0 +1,11 @@
+#!/bin/sh
+
+[ -f /usr/bin/S10keyboard ] || exit 0
+
+loadkmap < /etc/azerty.kmap
+
+touch /tmp/keyboard.txt 
+
+echo "French Keyboard !!"  >  /tmp/keyboard.txt 
+
+

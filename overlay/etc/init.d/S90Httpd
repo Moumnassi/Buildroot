@@ -1,0 +1,11 @@
+#!/bin/sh
+
+httpd -h /var/www/web
+
+
+
+
+
+
+
+
